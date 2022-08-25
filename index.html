@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Javascript Game</title>
     <meta charset="UTF-8">
-    <!-- http://proger.i-forge.net/The_smallest_transparent_pixel/ -->
-    <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Game!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <h1>Breakout Game!</h1>
+    <h2>How to play</h2>
+        <p>The game begins with 1 row of bricks.
+            Using a single ball, you must knock down all the bricks by using the walls 
+            and/or the paddle below to hit the ball against the bricks and eliminate them in order to go to the next level.
+            Level 2 has 2 rows of bricks and level 3 has 3 rows of bricks. 
+            If your paddle misses the ball's rebound, you will lose a life.
+            You have three lives to try to clear all the bricks.</p>
+    
+    <div id="gameover">
+        <img src="images/win.png" alt="" id="youwon">
+        <img src="images/gameover.jpeg" alt="" id="youlose">
+        <div id="restart">Play Again!</div>
+    </div>
+    <canvas id="breakout" width="400" height="500"></canvas>
+    <script src="components.js"></script>
+    <script src="game.js"></script>
+    
 </body>
 </html>
