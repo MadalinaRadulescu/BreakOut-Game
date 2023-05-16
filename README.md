@@ -1,71 +1,44 @@
-# Freestyle JavaScript Game
+# BreakOut Game
+Breakout Game is a simple game written in JavaScript where the objective is to knock down all the bricks by using a ball and a paddle.
 
-## Story
+The game starts with a single row of bricks, and as you progress through the levels, the number of rows increases. You have three lives to try to clear all the bricks.
 
-By now you know the basics of Javascript. Put your knowledge to the test,
-and create something awesome, creative, and motivating.
-Your task is to create a game in the browser. What kind of game?
+# How to Play
+1. Open the index.html file in your web browser.
+2. Move the paddle using the left and right arrow keys on your keyboard.
+3. Use the paddle to hit the ball and knock down the bricks.
+4. If the ball goes past the paddle, you will lose a life.
+5. If you lose all three lives, the game is over.
+6. Clear all the bricks to advance to the next level.
 
-Wait for it...
+# Technologies Used
+This game was created using HTML, CSS, and JavaScript.
 
-Any kind :) Your creativity (and your JavaScript knowledge) is the only limit.
+# Screen Shots
+**Level 1**
 
-## What are you going to learn?
+<img width="525" alt="Screenshot 2023-05-16 at 13 03 38" src="https://github.com/MadalinaRadulescu/BreakOut-Game/assets/101947079/1cbc1233-fbc9-4512-896c-cb42a51ec912">
 
-- Finding DOM elements in the document tree.
-- Manipulate the DOM using JavaScript.
-- Handle user interactions with JavaScript event handlers.
-- Use HTML data attributes.
-- Use CSS styling.
+**Level 2**
 
-## Tasks
+<img width="605" alt="Screenshot 2023-05-16 at 13 03 57" src="https://github.com/MadalinaRadulescu/BreakOut-Game/assets/101947079/228f91c4-ee58-40e5-90ed-606e32dc165d">
 
-1. Figure out as a team what game you want to work on and what features you want to finish.
-    - A game is chosen that the whole team agrees to implement.
-    - The game idea is checked by a mentor to make sure it can be realistically implemented in a sprint
-    - The game may be based on one of the following ideas: memory card game, Snake, Towers of Hanoi, simple platformer, Flappy Bird, Space Invaders, classic board games, turn based games, etc.
-    - There is a backlog of possible features.
-    - A plan is created, based on story estimations of what can be finished by the end of the sprint.
+**Level 3**
 
-2. Create a playable game based on JavaScript DOM manipulation and event handling.
-    - The game is based on handling some kind of event(s) (mouse, keyboard...).
-    - The game mainly relies on DOM manipulation to move elements around on the screen or change their appearance (beside CSS of course).
-    - The code is separated into several JavaScript functions.
+<img width="610" alt="Screenshot 2023-05-16 at 13 04 27" src="https://github.com/MadalinaRadulescu/BreakOut-Game/assets/101947079/0ea9d134-bed0-4e0a-9678-1ce09a03d552">
 
-3. [OPTIONAL] The game or parts of it can be time-driven. This adds some complexity, as you have to change things around in given time intervals.
-    - Some part of the game changes over time without any interaction (such as a moving enemy or avatar).
+**Winning the game**
 
-4. [OPTIONAL] Implement a way to check the highest scores.
-    - The highscore data is stored between games in a database. Scores can be linked to registered users. If the user is not registered, the score can be linked to a name.
+<img width="491" alt="Screenshot 2023-05-16 at 13 09 39" src="https://github.com/MadalinaRadulescu/BreakOut-Game/assets/101947079/9de7221b-ca9b-468c-9e1d-15dc8d3ac096">
 
-## General requirements
+**Losing the game**
 
-None
+<img width="506" alt="Screenshot 2023-05-16 at 13 03 31" src="https://github.com/MadalinaRadulescu/BreakOut-Game/assets/101947079/59d10274-7417-497d-8fff-f23cd35248fe">
 
-## Hints
+# Credits
+This game was created by Madalina Radulescu.
 
-- Have fun, create a game that is motivating for you! :)
-- Figure out what game and the features to implement, based on the following hints.
-    - Have a brainstorming session, throw in game and feature ideas without criticizing each other (any idea is a good idea), and write them down somewhere.
-    - Discuss the collected ideas and decide on a game.
-    - **Talk to a mentor about the idea and whether it can be realistically implemented in a sprint.**
-    - Collect any feature ideas you have and specify them so that every team member knows what the expectations are. (These are the [user stories](https://www.mountaingoatsoftware.com/agile/user-stories) in your backlog.)
-    - Estimate each user story and figure out how many you can finish in this sprint.
-- You can open the `index.html` by starting a small HTTP server. For more information, see the Background materials section.
-- Decide whether to create backend functionality. You can use any previously learned technology, such as Flask.
-- Use git branches as you develop new features.
-- If you search the internet for javascript games, you'll see lots of solutions using [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API). It is a nice technology, but we have not met canvas and the main focus of this project is to practice DOM and event handling, so please **say no to canvas for this project**. Later on feel free to learn about canvas with a pet project game for example.
+The original Breakout game was developed by Atari in 1976.
 
-## Background materials
-
-- <i class="far fa-exclamation"></i> [Javascript – Events](project/curriculum/materials/pages/javascript/javascript-events.md)
-- <i class="far fa-exclamation"></i> [Javascript – DOM manipulation](project/curriculum/materials/pages/javascript/javascript-dom.md)
-- <i class="far fa-exclamation"></i> [Javascript – Extending the DOM](project/curriculum/materials/pages/javascript/javascript-extending-the-dom.md)
-- <i class="far fa-exclamation"></i> [How to start a local HTTP server](project/curriculum/materials/pages/tools/serve-files.md)
-- [Javascript – Debugging](project/curriculum/materials/pages/javascript/javascript-debugging.md)
-- [Javascript – Other features](project/curriculum/materials/pages/javascript/javascript-other-features.md)
-- [Javascript.info tutorial](https://javascript.info/)
-- [MDN HTML Drag&Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
-- [MDN Drag operations documentation](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations)
-- <i class="far fa-book-open"></i> [CSS Flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- <i class="far fa-book-open"></i> [CSS Grid guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+# License
+This project is licensed under the terms of the [MIT License](https://choosealicense.com/licenses/mit/).
